@@ -1,4 +1,11 @@
-
+/*!
+ @header Constant.h
+ @brief 全局常量声明
+ @author LarrySue
+ @version 1.00 2016/03/28 Creation
+ Copyright © 2016年 LarrySue. All rights reserved.
+ */
+ 
 #ifndef Constant_h
 #define Constant_h
 
@@ -53,6 +60,7 @@ typedef NS_ENUM(NSUInteger, BTCkSex) {
  @result 返回值
  */
 - (NSInteger)demoMethod:(NSInteger)num;
+
 @end
 
 /*!
