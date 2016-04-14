@@ -8,8 +8,10 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
 
+/*!
+ *  @brief 传入scene，得到指定菜单数据的工具类
+ */
 @interface BTChNetWorkToolHelper : AFHTTPSessionManager
-//传入scene，得到指定菜单数据
 
 /*!
 *  @brief 网络请求单例
@@ -20,5 +22,9 @@
 */
 + (instancetype)sharedNetworkToolWithScene:(NSInteger*)scene;
 
+/*!
+ *  @brief 与主页scrollorView菜单对应
+ */
 @property (nonatomic, assign) NSInteger scene;
+
 @end
