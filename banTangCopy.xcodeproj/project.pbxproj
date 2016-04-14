@@ -23,7 +23,6 @@
 /* Begin PBXBuildFile section */
 		1D31B7131CA9633F00E4160B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7121CA9633F00E4160B /* main.m */; };
 		1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D31B71D1CA9633F00E4160B /* Assets.xcassets */; };
-		1D5B77721CB522A60098235D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B77631CB522A60098235D /* AppDelegate.m */; };
 		1D5B77731CB522A60098235D /* ModelDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77681CB522A60098235D /* ModelDemo */; };
 		1D5B77741CB522A60098235D /* ResourcesDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B776A1CB522A60098235D /* ResourcesDemo */; };
 		1D5B777B1CB523F60098235D /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B777A1CB523F60098235D /* Constant.m */; };
@@ -35,6 +34,7 @@
 		1D5B77891CB528200098235D /* PersonalDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77881CB528200098235D /* PersonalDemo */; };
 		1D5B778B1CB5282C0098235D /* ShowDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B778A1CB5282C0098235D /* ShowDemo */; };
 		1D5B778D1CB528360098235D /* SquareDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B778C1CB528360098235D /* SquareDemo */; };
+		1D5B77A71CB605770098235D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B77A61CB605770098235D /* AppDelegate.m */; };
 		1D8A2FEC1CA9677100140644 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A2FEA1CA9677100140644 /* LICENSE */; };
 		B901440387D1C85D2E87B772 /* libPods-banTangCopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */; };
 /* End PBXBuildFile section */
@@ -45,8 +45,6 @@
 		1D31B7121CA9633F00E4160B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = banTangCopy/main.m; sourceTree = "<group>"; };
 		1D31B71D1CA9633F00E4160B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = banTangCopy/Assets.xcassets; sourceTree = "<group>"; };
 		1D31B7221CA9633F00E4160B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = banTangCopy/Info.plist; sourceTree = "<group>"; };
-		1D5B77621CB522A60098235D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1D5B77631CB522A60098235D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D5B77681CB522A60098235D /* ModelDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModelDemo; sourceTree = "<group>"; };
 		1D5B776A1CB522A60098235D /* ResourcesDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourcesDemo; sourceTree = "<group>"; };
 		1D5B77751CB522C10098235D /* banTangCopy.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = banTangCopy.pch; sourceTree = "<group>"; };
@@ -61,6 +59,8 @@
 		1D5B778A1CB5282C0098235D /* ShowDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ShowDemo; sourceTree = "<group>"; };
 		1D5B778C1CB528360098235D /* SquareDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SquareDemo; sourceTree = "<group>"; };
 		1D5B77A21CB601050098235D /* banTangCopy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "banTangCopy-Bridging-Header.h"; path = "banTangCopy/banTangCopy-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D5B77A51CB605770098235D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D5B77A61CB605770098235D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D8A2FEA1CA9677100140644 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1D8A2FEB1CA9677100140644 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-banTangCopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,8 +137,8 @@
 		1D5B77611CB522A60098235D /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				1D5B77621CB522A60098235D /* AppDelegate.h */,
-				1D5B77631CB522A60098235D /* AppDelegate.m */,
+				1D5B77A51CB605770098235D /* AppDelegate.h */,
+				1D5B77A61CB605770098235D /* AppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -350,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here\n\nmkdir -p headerDoc\n\nfind /Users/iBreezearrow/Desktop/banTangCopy/banTangCopy/Macro -name \\*.h -print | xargs headerdoc2html -o headerDoc\n\ngatherheaderdoc headerDoc\n\nexit 0";
+			shellScript = "# shell script goes here\n\nmkdir -p headerDoc\n\nfind /Users/iBreezearrow/Desktop/banTangCopy/banTangCopy/General -name \\*.swift -print | xargs headerdoc2html -o headerDoc\n\ngatherheaderdoc headerDoc\n\nexit 0";
 		};
 		22C829276BAD868BD525A3E2 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -404,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5B77721CB522A60098235D /* AppDelegate.m in Sources */,
+				1D5B77A71CB605770098235D /* AppDelegate.m in Sources */,
 				1D5B777B1CB523F60098235D /* Constant.m in Sources */,
 				1D31B7131CA9633F00E4160B /* main.m in Sources */,
 			);
