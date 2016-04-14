@@ -36,6 +36,7 @@
 		1D5B778B1CB5282C0098235D /* ShowDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B778A1CB5282C0098235D /* ShowDemo */; };
 		1D5B778D1CB528360098235D /* SquareDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B778C1CB528360098235D /* SquareDemo */; };
 		1D8A2FEC1CA9677100140644 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A2FEA1CA9677100140644 /* LICENSE */; };
+		4A0C50AC1CBFA1A500179AD0 /* BTChNetWorkToolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0C50AB1CBFA1A500179AD0 /* BTChNetWorkToolHelper.m */; };
 		B901440387D1C85D2E87B772 /* libPods-banTangCopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		1D5B77A21CB601050098235D /* banTangCopy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "banTangCopy-Bridging-Header.h"; path = "banTangCopy/banTangCopy-Bridging-Header.h"; sourceTree = "<group>"; };
 		1D8A2FEA1CA9677100140644 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1D8A2FEB1CA9677100140644 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4A0C50AA1CBFA1A500179AD0 /* BTChNetWorkToolHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTChNetWorkToolHelper.h; sourceTree = "<group>"; };
+		4A0C50AB1CBFA1A500179AD0 /* BTChNetWorkToolHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTChNetWorkToolHelper.m; sourceTree = "<group>"; };
 		8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-banTangCopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F032FF7E1FADA31D504BBC97 /* Pods-banTangCopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banTangCopy.release.xcconfig"; path = "Pods/Target Support Files/Pods-banTangCopy/Pods-banTangCopy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +157,8 @@
 		1D5B77651CB522A60098235D /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4A0C50AA1CBFA1A500179AD0 /* BTChNetWorkToolHelper.h */,
+				4A0C50AB1CBFA1A500179AD0 /* BTChNetWorkToolHelper.m */,
 				1D5B777E1CB527610098235D /* HelperDemo */,
 			);
 			path = Helpers;
@@ -407,6 +412,7 @@
 				1D5B77721CB522A60098235D /* AppDelegate.m in Sources */,
 				1D5B777B1CB523F60098235D /* Constant.m in Sources */,
 				1D31B7131CA9633F00E4160B /* main.m in Sources */,
+				4A0C50AC1CBFA1A500179AD0 /* BTChNetWorkToolHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
