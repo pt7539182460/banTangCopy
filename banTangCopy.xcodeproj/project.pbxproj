@@ -21,8 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1D20764F1CBFAF9900771E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D20764E1CBFAF9900771E62 /* Assets.xcassets */; };
+		1D2076521CBFB0A400771E62 /* LScMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2076511CBFB0A400771E62 /* LScMainTabBarController.m */; };
 		1D31B7131CA9633F00E4160B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7121CA9633F00E4160B /* main.m */; };
-		1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D31B71D1CA9633F00E4160B /* Assets.xcassets */; };
 		1D5B77731CB522A60098235D /* ModelDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77681CB522A60098235D /* ModelDemo */; };
 		1D5B77741CB522A60098235D /* ResourcesDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B776A1CB522A60098235D /* ResourcesDemo */; };
 		1D5B777B1CB523F60098235D /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B777A1CB523F60098235D /* Constant.m */; };
@@ -42,9 +43,11 @@
 
 /* Begin PBXFileReference section */
 		18C9720F2EC13077CEBD124E /* Pods-banTangCopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banTangCopy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-banTangCopy/Pods-banTangCopy.debug.xcconfig"; sourceTree = "<group>"; };
+		1D20764E1CBFAF9900771E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D2076501CBFB0A400771E62 /* LScMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LScMainTabBarController.h; sourceTree = "<group>"; };
+		1D2076511CBFB0A400771E62 /* LScMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LScMainTabBarController.m; sourceTree = "<group>"; };
 		1D31B70E1CA9633F00E4160B /* banTangCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banTangCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D31B7121CA9633F00E4160B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = banTangCopy/main.m; sourceTree = "<group>"; };
-		1D31B71D1CA9633F00E4160B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = banTangCopy/Assets.xcassets; sourceTree = "<group>"; };
 		1D31B7221CA9633F00E4160B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = banTangCopy/Info.plist; sourceTree = "<group>"; };
 		1D5B77681CB522A60098235D /* ModelDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModelDemo; sourceTree = "<group>"; };
 		1D5B776A1CB522A60098235D /* ResourcesDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourcesDemo; sourceTree = "<group>"; };
@@ -126,8 +129,8 @@
 		1D5B77601CB521150098235D /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1D20764E1CBFAF9900771E62 /* Assets.xcassets */,
 				1D5B77A21CB601050098235D /* banTangCopy-Bridging-Header.h */,
-				1D31B71D1CA9633F00E4160B /* Assets.xcassets */,
 				1D31B7221CA9633F00E4160B /* Info.plist */,
 				1D31B7121CA9633F00E4160B /* main.m */,
 				1D8A2FEA1CA9677100140644 /* LICENSE */,
@@ -150,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				1D5B77801CB5276F0098235D /* GeneralDemo */,
+				1D2076501CBFB0A400771E62 /* LScMainTabBarController.h */,
+				1D2076511CBFB0A400771E62 /* LScMainTabBarController.m */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -329,7 +334,6 @@
 				1D5B77731CB522A60098235D /* ModelDemo in Resources */,
 				1D5B77741CB522A60098235D /* ResourcesDemo in Resources */,
 				1D5B77851CB527FE0098235D /* LoginDemo in Resources */,
-				1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */,
 				1D8A2FEC1CA9677100140644 /* LICENSE in Resources */,
 				1D5B778B1CB5282C0098235D /* ShowDemo in Resources */,
 				1D5B778D1CB528360098235D /* SquareDemo in Resources */,
@@ -337,6 +341,7 @@
 				1D5B777F1CB527610098235D /* HelperDemo in Resources */,
 				1D5B77871CB5280B0098235D /* MessageDemo in Resources */,
 				1D5B77831CB527ED0098235D /* HomeDemo in Resources */,
+				1D20764F1CBFAF9900771E62 /* Assets.xcassets in Resources */,
 				1D5B77811CB5276F0098235D /* GeneralDemo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +417,7 @@
 				1D5B77A71CB605770098235D /* AppDelegate.m in Sources */,
 				1D5B777B1CB523F60098235D /* Constant.m in Sources */,
 				1D31B7131CA9633F00E4160B /* main.m in Sources */,
+				1D2076521CBFB0A400771E62 /* LScMainTabBarController.m in Sources */,
 				4A0C50AC1CBFA1A500179AD0 /* BTChNetWorkToolHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
