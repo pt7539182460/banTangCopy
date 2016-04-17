@@ -283,7 +283,7 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UXP-Y7-W42">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UXP-Y7-W42">
                                 <rect key="frame" x="0.0" y="192" width="600" height="559"/>
                                 <color key="backgroundColor" red="0.76076707693577295" green="0.70215462832976638" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g5G-3w-oPD">
