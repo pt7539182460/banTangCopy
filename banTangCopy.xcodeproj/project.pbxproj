@@ -21,6 +21,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		079F2F151CC3A09B006F7CA0 /* BTCPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2F091CC3A09B006F7CA0 /* BTCPersonalViewController.m */; };
+		079F2F161CC3A09B006F7CA0 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2F0C1CC3A09B006F7CA0 /* NSObject+Log.m */; };
+		079F2F171CC3A09B006F7CA0 /* personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079F2F0D1CC3A09B006F7CA0 /* personal.storyboard */; };
+		079F2F181CC3A09B006F7CA0 /* BTCmSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2F101CC3A09B006F7CA0 /* BTCmSingle.m */; };
+		079F2F191CC3A09B006F7CA0 /* BTCvSingleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2F141CC3A09B006F7CA0 /* BTCvSingleCell.m */; };
 		1D20764F1CBFAF9900771E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D20764E1CBFAF9900771E62 /* Assets.xcassets */; };
 		1D2076521CBFB0A400771E62 /* LScMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2076511CBFB0A400771E62 /* LScMainTabBarController.m */; };
 		1D31B7131CA9633F00E4160B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7121CA9633F00E4160B /* main.m */; };
@@ -42,6 +47,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		079F2F081CC3A09B006F7CA0 /* BTCPersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCPersonalViewController.h; sourceTree = "<group>"; };
+		079F2F091CC3A09B006F7CA0 /* BTCPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCPersonalViewController.m; sourceTree = "<group>"; };
+		079F2F0B1CC3A09B006F7CA0 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		079F2F0C1CC3A09B006F7CA0 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		079F2F0D1CC3A09B006F7CA0 /* personal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = personal.storyboard; sourceTree = "<group>"; };
+		079F2F0F1CC3A09B006F7CA0 /* BTCmSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCmSingle.h; sourceTree = "<group>"; };
+		079F2F101CC3A09B006F7CA0 /* BTCmSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCmSingle.m; sourceTree = "<group>"; };
+		079F2F131CC3A09B006F7CA0 /* BTCvSingleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCvSingleCell.h; sourceTree = "<group>"; };
+		079F2F141CC3A09B006F7CA0 /* BTCvSingleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCvSingleCell.m; sourceTree = "<group>"; };
 		18C9720F2EC13077CEBD124E /* Pods-banTangCopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banTangCopy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-banTangCopy/Pods-banTangCopy.debug.xcconfig"; sourceTree = "<group>"; };
 		1D20764E1CBFAF9900771E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2076501CBFB0A400771E62 /* LScMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LScMainTabBarController.h; sourceTree = "<group>"; };
@@ -85,6 +99,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		079F2F071CC3A09B006F7CA0 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				079F2F081CC3A09B006F7CA0 /* BTCPersonalViewController.h */,
+				079F2F091CC3A09B006F7CA0 /* BTCPersonalViewController.m */,
+				079F2F0A1CC3A09B006F7CA0 /* Log */,
+				079F2F0D1CC3A09B006F7CA0 /* personal.storyboard */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		079F2F0A1CC3A09B006F7CA0 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				079F2F0B1CC3A09B006F7CA0 /* NSObject+Log.h */,
+				079F2F0C1CC3A09B006F7CA0 /* NSObject+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		079F2F0E1CC3A09B006F7CA0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				079F2F0F1CC3A09B006F7CA0 /* BTCmSingle.h */,
+				079F2F101CC3A09B006F7CA0 /* BTCmSingle.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		079F2F111CC3A09B006F7CA0 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		079F2F121CC3A09B006F7CA0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				079F2F131CC3A09B006F7CA0 /* BTCvSingleCell.h */,
+				079F2F141CC3A09B006F7CA0 /* BTCvSingleCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		07B0F827FA549CD6A511DD52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +249,10 @@
 		1D5B77691CB522A60098235D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				079F2F071CC3A09B006F7CA0 /* control */,
+				079F2F0E1CC3A09B006F7CA0 /* model */,
+				079F2F111CC3A09B006F7CA0 /* tool */,
+				079F2F121CC3A09B006F7CA0 /* view */,
 				1D5B776A1CB522A60098235D /* ResourcesDemo */,
 			);
 			path = Resources;
@@ -333,6 +396,7 @@
 			files = (
 				1D5B77731CB522A60098235D /* ModelDemo in Resources */,
 				1D5B77741CB522A60098235D /* ResourcesDemo in Resources */,
+				079F2F171CC3A09B006F7CA0 /* personal.storyboard in Resources */,
 				1D5B77851CB527FE0098235D /* LoginDemo in Resources */,
 				1D8A2FEC1CA9677100140644 /* LICENSE in Resources */,
 				1D5B778B1CB5282C0098235D /* ShowDemo in Resources */,
@@ -416,9 +480,13 @@
 			files = (
 				1D5B77A71CB605770098235D /* AppDelegate.m in Sources */,
 				1D5B777B1CB523F60098235D /* Constant.m in Sources */,
+				079F2F161CC3A09B006F7CA0 /* NSObject+Log.m in Sources */,
+				079F2F151CC3A09B006F7CA0 /* BTCPersonalViewController.m in Sources */,
 				1D31B7131CA9633F00E4160B /* main.m in Sources */,
 				1D2076521CBFB0A400771E62 /* LScMainTabBarController.m in Sources */,
+				079F2F191CC3A09B006F7CA0 /* BTCvSingleCell.m in Sources */,
 				4A0C50AC1CBFA1A500179AD0 /* BTChNetWorkToolHelper.m in Sources */,
+				079F2F181CC3A09B006F7CA0 /* BTCmSingle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
