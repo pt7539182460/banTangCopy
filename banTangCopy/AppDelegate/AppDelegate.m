@@ -35,6 +35,8 @@
         UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:vc];
         //添加至tabBar控制器
         [self.tabBarVc addChildViewController:navVc];
+    //添加Resources(我)控制器
+    UIStoryboard *resouSB = [UIStoryboard storyboardWithName:"" bundle:<#(nullable NSBundle *)#>]
     
     //设置window为主窗口
     [self.window makeKeyAndVisible];
